@@ -335,3 +335,4 @@ client.on('messageCreate', async message => {
 client.login(process.env.TOKEN)
   .then(() => console.log("🚀 Bot login successful"))
   .catch(err => console.error("❌ Bot login failed:", err));
+
